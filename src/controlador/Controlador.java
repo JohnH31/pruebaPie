@@ -25,7 +25,7 @@ public class Controlador implements ActionListener {
 
         this.tra.btnTraducir.addActionListener(this);
     }
-
+//agregando comentario
     public void palabra1() {
         pal.setPal1(tra.Cbpalabras.getSelectedItem().toString());
         if (pal.getPal1() == "Busca") {
